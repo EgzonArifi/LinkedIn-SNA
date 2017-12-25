@@ -8,6 +8,7 @@ import Foundation
 
 class User {
 
+    var uId: Int!
 	var company : String!
 	var companyFounded : String!
 	var companyHeadquarters : String!
@@ -28,6 +29,8 @@ class User {
 	 * Instantiate the instance using the passed dictionary values to set the properties values
 	 */
 	init(fromDictionary dictionary: NSDictionary){
+        
+        uId = dictionary["uId"] as? Int
 		company = dictionary["company"] as? String
 		companyFounded = dictionary["companyFounded"] as? String
 		companyHeadquarters = dictionary["companyHeadquarters"] as? String

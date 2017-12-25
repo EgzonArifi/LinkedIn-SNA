@@ -6,7 +6,7 @@
 
 import Foundation
 
-class Skill{
+class Skill {
 
 	var endorsmentCount : String!
 	var name : String!
