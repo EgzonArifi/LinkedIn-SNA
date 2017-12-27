@@ -8,7 +8,7 @@ import Foundation
 
 class User {
 
-    var uId: Int!
+    var uId: String!
 	var company : String!
 	var companyFounded : String!
 	var companyHeadquarters : String!
@@ -30,7 +30,7 @@ class User {
 	 */
 	init(fromDictionary dictionary: NSDictionary){
         
-        uId = dictionary["uId"] as? Int
+        uId = dictionary["uId"] as? String
 		company = dictionary["company"] as? String
 		companyFounded = dictionary["companyFounded"] as? String
 		companyHeadquarters = dictionary["companyHeadquarters"] as? String
