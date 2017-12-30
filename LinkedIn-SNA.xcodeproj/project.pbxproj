@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		779362A11FF04A0000CABFD5 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779362A01FF04A0000CABFD5 /* Collection.swift */; };
+		779362A31FF39B6200CABFD5 /* dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 779362A21FF39B6200CABFD5 /* dataset.json */; };
+		779362A51FF39EBE00CABFD5 /* smallerDataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 779362A41FF39EBE00CABFD5 /* smallerDataset.json */; };
 		77AF4D711FEE68B900E691A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF4D701FEE68B900E691A5 /* AppDelegate.swift */; };
 		77AF4D731FEE68B900E691A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF4D721FEE68B900E691A5 /* ViewController.swift */; };
 		77AF4D751FEE68B900E691A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77AF4D741FEE68B900E691A5 /* Assets.xcassets */; };
 		77AF4D781FEE68B900E691A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AF4D761FEE68B900E691A5 /* Main.storyboard */; };
+		77AF4D831FEE6BBC00E691A5 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF4D811FEE6BBC00E691A5 /* Skill.swift */; };
+		77AF4D841FEE6BBC00E691A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF4D821FEE6BBC00E691A5 /* User.swift */; };
+		77AF4D871FEE6C1C00E691A5 /* LoadFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF4D861FEE6C1C00E691A5 /* LoadFile.swift */; };
+		77AF4D891FEE6CDE00E691A5 /* linkedinProfiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 77AF4D881FEE6CDE00E691A5 /* linkedinProfiles.json */; };
+		77AF4D8B1FEE80CC00E691A5 /* MatrixCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF4D8A1FEE80CC00E691A5 /* MatrixCell.swift */; };
+		77AF4D8E1FEE82DB00E691A5 /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF4D8C1FEE82DB00E691A5 /* CollectionViewItem.swift */; };
+		77AF4D8F1FEE82DB00E691A5 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77AF4D8D1FEE82DB00E691A5 /* CollectionViewItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		779362A01FF04A0000CABFD5 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		779362A21FF39B6200CABFD5 /* dataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataset.json; sourceTree = "<group>"; };
+		779362A41FF39EBE00CABFD5 /* smallerDataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = smallerDataset.json; sourceTree = "<group>"; };
 		77AF4D6D1FEE68B900E691A5 /* LinkedIn-SNA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LinkedIn-SNA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AF4D701FEE68B900E691A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77AF4D721FEE68B900E691A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77AF4D741FEE68B900E691A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77AF4D771FEE68B900E691A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77AF4D791FEE68B900E691A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77AF4D811FEE6BBC00E691A5 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		77AF4D821FEE6BBC00E691A5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		77AF4D861FEE6C1C00E691A5 /* LoadFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadFile.swift; sourceTree = "<group>"; };
+		77AF4D881FEE6CDE00E691A5 /* linkedinProfiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = linkedinProfiles.json; sourceTree = "<group>"; };
+		77AF4D8A1FEE80CC00E691A5 /* MatrixCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixCell.swift; sourceTree = "<group>"; };
+		77AF4D8C1FEE82DB00E691A5 /* CollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
+		77AF4D8D1FEE82DB00E691A5 /* CollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +72,15 @@
 		77AF4D6F1FEE68B900E691A5 /* LinkedIn-SNA */ = {
 			isa = PBXGroup;
 			children = (
-				77AF4D7F1FEE68C900E691A5 /* Models */,
 				77AF4D701FEE68B900E691A5 /* AppDelegate.swift */,
-				77AF4D721FEE68B900E691A5 /* ViewController.swift */,
+				77AF4D851FEE6C0100E691A5 /* Util */,
+				77AF4D801FEE6B3B00E691A5 /* VC */,
+				77AF4D7F1FEE68C900E691A5 /* Models */,
 				77AF4D741FEE68B900E691A5 /* Assets.xcassets */,
 				77AF4D761FEE68B900E691A5 /* Main.storyboard */,
+				77AF4D881FEE6CDE00E691A5 /* linkedinProfiles.json */,
+				779362A21FF39B6200CABFD5 /* dataset.json */,
+				779362A41FF39EBE00CABFD5 /* smallerDataset.json */,
 				77AF4D791FEE68B900E691A5 /* Info.plist */,
 			);
 			path = "LinkedIn-SNA";
@@ -65,8 +89,30 @@
 		77AF4D7F1FEE68C900E691A5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				77AF4D811FEE6BBC00E691A5 /* Skill.swift */,
+				77AF4D821FEE6BBC00E691A5 /* User.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		77AF4D801FEE6B3B00E691A5 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				77AF4D8C1FEE82DB00E691A5 /* CollectionViewItem.swift */,
+				77AF4D8D1FEE82DB00E691A5 /* CollectionViewItem.xib */,
+				77AF4D721FEE68B900E691A5 /* ViewController.swift */,
+				77AF4D8A1FEE80CC00E691A5 /* MatrixCell.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		77AF4D851FEE6C0100E691A5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				77AF4D861FEE6C1C00E691A5 /* LoadFile.swift */,
+				779362A01FF04A0000CABFD5 /* Collection.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AF4D891FEE6CDE00E691A5 /* linkedinProfiles.json in Resources */,
+				77AF4D8F1FEE82DB00E691A5 /* CollectionViewItem.xib in Resources */,
+				779362A51FF39EBE00CABFD5 /* smallerDataset.json in Resources */,
+				779362A31FF39B6200CABFD5 /* dataset.json in Resources */,
 				77AF4D751FEE68B900E691A5 /* Assets.xcassets in Resources */,
 				77AF4D781FEE68B900E691A5 /* Main.storyboard in Resources */,
 			);
@@ -141,8 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AF4D841FEE6BBC00E691A5 /* User.swift in Sources */,
+				77AF4D8E1FEE82DB00E691A5 /* CollectionViewItem.swift in Sources */,
+				77AF4D871FEE6C1C00E691A5 /* LoadFile.swift in Sources */,
+				77AF4D8B1FEE80CC00E691A5 /* MatrixCell.swift in Sources */,
+				77AF4D831FEE6BBC00E691A5 /* Skill.swift in Sources */,
 				77AF4D731FEE68B900E691A5 /* ViewController.swift in Sources */,
 				77AF4D711FEE68B900E691A5 /* AppDelegate.swift in Sources */,
+				779362A11FF04A0000CABFD5 /* Collection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +353,7 @@
 				77AF4D7E1FEE68B900E691A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
