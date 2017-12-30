@@ -9,12 +9,14 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    
     var users = [User]()
-
+    
     var adjancencyMatrix = [[Int]]()
     
     var usersInfo = ""
+    var skillToUserString = ""
+    var userToUserString = ""
     
     @IBOutlet weak var collectionView: NSCollectionView!
     @IBOutlet weak var console: NSTextField!
@@ -26,40 +28,58 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         exportButton.isEnabled = false
         users = LoadFile.loadUser(fromFile: "linkedinProfiles")
     }
     
     @IBAction func firstRadioAction(_ sender: Any) {
-    
+        
         secondOptiom.state = 0
     }
     
     @IBAction func secondRadionAction(_ sender: Any) {
         firstOption.state = 0
+        skillName.stringValue = "Swift,Objective-C,Java,Xcode,iOS Development,Unit Testing,Javascript,node.js,jQuery,Ruby on Rails,.Net,iOS Design,Adobe Photoshop,SQL,iOS Design,Mobile Applications,OAuth,Core Data,Git"
     }
     
     @IBAction func usersLog(_ sender: Any) {
-        saveModal(text: "*Network LinkedIn SNA \n*Vertices      19\n" + usersInfo + "\n*Matrix 1: \"Users with same predefined skills\"\n" + console.stringValue)
-//        saveModal(text: console.stringValue)
+        if skillToUserString.isEmpty {
+            saveModal(text: "*Network LinkedIn SNA \n*Vertices      \(adjancencyMatrix.count)\n" + usersInfo + "\n*Matrix 1: \"Users with same predefined skills\"\n" + userToUserString)
+        } else {
+            saveModal(text: "*Network LinkedIn SNA \n*Vertices      \(adjancencyMatrix.count)\n" + usersInfo + "\n*Matrix 1: \"Users to user\"\n" + userToUserString + "\n*Matrix 2: \"Skill to user\"\n" + skillToUserString)
+        }
+        //        saveModal(text: console.stringValue)
     }
     
     @IBAction func createAdjacencyMatrix(_ sender: Any) {
         
-        adjancencyMatrix = [[Int]]()
-        
-        let users2 = users
-        
         console.stringValue = ""
         
+        usersInfo = ""
+        adjancencyMatrix = [[Int]]()
+        
+        if firstOption.state == 1 {
+            userToUserString = ""
+            userToUser()
+        } else {
+            skillToUserString = ""
+            skillToUser()
+        }
+        
+        collectionView.reloadData()
+        exportButton.isEnabled = true
+    }
+    
+    func userToUser() {
+        
+        let users2 = users
         let skillsArr = skillName.stringValue.components(separatedBy: ",")
         
-        usersInfo = ""
-        
+        var i = 0
         for user in users {
-            
-            usersInfo = usersInfo + "\(user.uId!) \(user.firstName!) \(user.lastName!)\n"
+            i = i + 1
+            usersInfo = usersInfo + "\(i) \(user.firstName!) \(user.lastName!)\n"
             
             var rowAdjacency = [Int]()
             
@@ -69,15 +89,6 @@ class ViewController: NSViewController {
                 
                 for skill in skillsArr {
                     
-//                    let user2Result = user2.skills.binarySearch { $0.name.lowercased() == skill.lowercased() }
-//                    let user1Result = user.skills.binarySearch { $0.name.lowercased() == skill.lowercased() }
-//                    
-//                    print(user1Result,user2Result)
-//                    
-//                    if user2Result > 0 && user1Result > 0 {
-//                        existSameSkills = existSameSkills + 1
-//                    }
-                    
                     let user2Results = user2.skills.filter { $0.name.lowercased() == skill.lowercased() }
                     let user1Results = user.skills.filter { $0.name.lowercased() == skill.lowercased() }
                     
@@ -86,25 +97,49 @@ class ViewController: NSViewController {
                     }
                 }
                 
-                //print(existSameSkills,skillsArr.count)
                 if user2.uId == user.uId {
                     rowAdjacency.append(0)
-                    console.stringValue = console.stringValue + "0"
+                    userToUserString = userToUserString + "0"
                 } else if existSameSkills >= 3 {
                     rowAdjacency.append(1)
-                    console.stringValue = console.stringValue + "1"
+                    userToUserString = userToUserString + "1"
                 } else {
                     rowAdjacency.append(0)
-                    console.stringValue = console.stringValue + "0"
+                    userToUserString = userToUserString + "0"
                 }
-                console.stringValue = console.stringValue + "  "
+                userToUserString = userToUserString + "  "
             }
-            //print(rowAdjacency)
-            console.stringValue = console.stringValue + "\n"
+            userToUserString = userToUserString + "\n"
             adjancencyMatrix.append(rowAdjacency)
         }
-        collectionView.reloadData()
-        exportButton.isEnabled = true
+    }
+    
+    func skillToUser() {
+        
+        let skillsArr = skillName.stringValue.components(separatedBy: ",")
+        
+        for user in users {
+            
+            var rowAdjacency = [Int]()
+            usersInfo = usersInfo + "\(user.uId!) \(user.firstName!) \(user.lastName!)\n"
+            
+            for skill in skillsArr {
+                
+                let user1Results = user.skills.filter { $0.name.lowercased() == skill.lowercased() }
+                
+                if !user1Results.isEmpty {
+                    rowAdjacency.append(1)
+                    skillToUserString = skillToUserString + "1"
+                } else {
+                    rowAdjacency.append(0)
+                    skillToUserString = skillToUserString + "0"
+                }
+                skillToUserString = skillToUserString + "  "
+            }
+            skillToUserString = skillToUserString + "\n"
+            adjancencyMatrix.append(rowAdjacency)
+        }
+
     }
     
     func saveModal(text: String) {
@@ -137,7 +172,7 @@ class ViewController: NSViewController {
             // reading from disk
             do {
                 let mytext = try String(contentsOf: fileURL)
-                print(mytext)   // "some text\n"
+                print(mytext)
             } catch {
                 print("error loading contents of:", fileURL, error)
             }
@@ -164,6 +199,7 @@ extension ViewController : NSCollectionViewDataSource {
         guard let collectionViewItem = item as? CollectionViewItem else {
             return item
         }
+        collectionViewItem.textField?.stringValue = ""
         collectionViewItem.textField?.stringValue = "\(adjancencyMatrix[indexPath.section][indexPath.item])"
         return item
     }
@@ -171,8 +207,6 @@ extension ViewController : NSCollectionViewDataSource {
 
 extension ViewController : NSCollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: NSCollectionView, layout collectionViewLayout: NSCollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> NSSize {
-        return NSSize(width: floor(collectionView.bounds.size.width/19.1), height: floor(collectionView.bounds.size.height/19.1))
+        return NSSize(width: floor(collectionView.bounds.size.width/CGFloat(adjancencyMatrix.count)), height: floor(collectionView.bounds.size.height/CGFloat(adjancencyMatrix.count)))
     }
 }
-
-
