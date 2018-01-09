@@ -1,0 +1,824 @@
+ [
+  {
+  "uId": "1",
+  "firstName": "Lionel",
+  "lastName": "Seidman",
+  "email": "lseidman@hearst.com",
+  "job": "iOS Developer",
+  "location": "Greater New York City Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAAK_BF0BIUANsjj1duHmNJpy4LXYuYD-2cg/",
+  "company": "Hearst Magazines",
+  "companyWebsite": "http://www.hearst.com",
+  "companyIndustry": "Publishing",
+  "companyFounded": "",
+  "companySize": "1001-5000",
+  "companyLinkedin": "/company-beta/4517",
+  "companyHeadquarters": "New York, NY",
+  "skills": [
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "46"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "66"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "2"
+             },
+             {
+             "name": "Ruby on Rails",
+             "endorsmentCount": "65"
+             },
+             {
+             "name": "Javascript",
+             "endorsmentCount": "56"
+             },
+             {
+             "name": ".Net",
+             "endorsmentCount": "30"
+             },
+             {
+             "name": "node.js",
+             "endorsmentCount": "6"
+             },
+             {
+             "name": "jQuery",
+             "endorsmentCount": "27"
+             },
+             {
+             "name": "Java",
+             "endorsmentCount": "46"
+             }
+             ]
+  },
+  {
+  "uId": "2",
+  "firstName": "Bahar",
+  "lastName": "Eghbalpour",
+  "email": "",
+  "job": "ios Developer",
+  "location": "Greater Atlanta Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAABDccVMBatlBtIgqIFTHc1my35Oo5jXMZow/",
+  "company": "Self-employed",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "Graphic Design",
+             "endorsmentCount": "22"
+             },
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "28"
+             },
+             {
+             "name": "Adobe Photoshop",
+             "endorsmentCount": "20"
+             },
+             {
+             "name": "Java",
+             "endorsmentCount": "5"
+             },
+             {
+             "name": "iOS Design",
+             "endorsmentCount": "9"
+             },
+             {
+             "name": "Adobe Illustrator",
+             "endorsmentCount": "2"
+             },
+             {
+             "name": "Costumer Service",
+             "endorsmentCount": "13"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "13"
+             }
+             ]
+  },
+  {
+  "uId": "3",
+  "firstName": "Matthew",
+  "lastName": "Bracamonte",
+  "email": "",
+  "job": "iOS Mobile Developer",
+  "location": "Phoenix, Arizona Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAB34NC0BsSz7QEVluZxXIGh4aUWIp3yUzrU/",
+  "company": "",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "iOS",
+             "endorsmentCount": "6"
+             },
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "5"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "5"
+             },
+             {
+             "name": "Mobile Devices",
+             "endorsmentCount": "2"
+             },
+             {
+             "name": "Java",
+             "endorsmentCount": "1"
+             },
+             {
+             "name": "Entrepreneurship",
+             "endorsmentCount": "2"
+             },
+             {
+             "name": "Programming",
+             "endorsmentCount": "2"
+             }
+             ]
+  },
+  {
+  "uId": "4",
+  "firstName": "Dandan",
+  "lastName": "Song",
+  "email": "",
+  "job": "IOS Game Developer",
+  "location": "San Francisco Bay Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAABuDo1EBP8rNuGjWr-p-3_SLBbhGjahMi-I/",
+  "company": "self",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "Javascript",
+             "endorsmentCount": "13"
+             },
+             {
+             "name": "Java",
+             "endorsmentCount": "11"
+             },
+             {
+             "name": "Software Development",
+             "endorsmentCount": "11"
+             },
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "7"
+             },
+             {
+             "name": "Xcode",
+             "endorsmentCount": "4"
+             },
+             {
+             "name": "SQL",
+             "endorsmentCount": "7"
+             },
+             {
+             "name": "Cocos2d",
+             "endorsmentCount": "3"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "3"
+             },
+             {
+             "name": "Linux",
+             "endorsmentCount": "5"
+             }
+             ]
+  },
+  {
+  "uId": "5",
+  "firstName": "Rene",
+  "lastName": "Candelier",
+  "email": "",
+  "job": "Founder, CEO",
+  "location": "Greater Atlanta Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAA18BSABtqZCDi1Y0sPBTw15T4CFRswvVbI/",
+  "company": "Novus Mobile",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "Xcode",
+             "endorsmentCount": "13"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "25"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "8"
+             },
+             {
+             "name": "Java",
+             "endorsmentCount": "14"
+             },
+             {
+             "name": "Mac OS",
+             "endorsmentCount": "13"
+             },
+             {
+             "name": "SQL",
+             "endorsmentCount": "22"
+             },
+             {
+             "name": "Sales Force",
+             "endorsmentCount": "2"
+             },
+             {
+             "name": "iOS Design",
+             "endorsmentCount": "10"
+             }
+             ]
+  },
+  {
+  "uId": "6",
+  "firstName": "John",
+  "lastName": "Parron",
+  "email": "jparron@disneycareers.com",
+  "job": "Senior iOS Developer",
+  "location": "Orlando, Florida Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAAlmSgIBP5YetGwrVNBbjdkGcnsYYijunfE/",
+  "company": "The Walt Disney Company",
+  "companyWebsite": "http://www.disneycareers.com",
+  "companyIndustry": "Entertainment",
+  "companyFounded": "1923",
+  "companySize": "10001+",
+  "companyLinkedin": "/company-beta/1292",
+  "companyHeadquarters": "Burbank, CA",
+  "skills": [
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "25"
+             },
+             {
+             "name": "iOS",
+             "endorsmentCount": "42"
+             },
+             {
+             "name": "Mobile Applications",
+             "endorsmentCount": "48"
+             },
+             {
+             "name": "Xcode",
+             "endorsmentCount": "15"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "10"
+             },
+             {
+             "name": "OAuth",
+             "endorsmentCount": "9"
+             },
+             {
+             "name": "Cocoa Touch",
+             "endorsmentCount": "5"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "14"
+             },
+             {
+             "name": "Java",
+             "endorsmentCount": "2"
+             },
+             {
+             "name": "3D Modeling",
+             "endorsmentCount": "3"
+             },
+             {
+             "name": "Android Development",
+             "endorsmentCount": "3"
+             },
+             {
+             "name": "Core Data",
+             "endorsmentCount": "6"
+             },
+             {
+             "name": "Rest",
+             "endorsmentCount": "6"
+             }
+             ]
+  },
+  {
+  "uId": "7",
+  "firstName": "Patrick",
+  "lastName": "Bellot",
+  "email": "",
+  "job": "Owner/iOS App Developer",
+  "location": "Biloxi, Mississippi Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAABF1y-cB6jnspudsFIVsZbb5oxs1XA22ooM/",
+  "company": "Polestar Interactive, LLC",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "65"
+             },
+             {
+             "name": "Xcode",
+             "endorsmentCount": "61"
+             },
+             {
+             "name": "iOS",
+             "endorsmentCount": "58"
+             }
+             ]
+  },
+  {
+  "uId": "8",
+  "firstName": "May",
+  "lastName": "Yang",
+  "email": "",
+  "job": "iOS Developer",
+  "location": "San Francisco Bay Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAATCWBIB_VqTkIz-1sQppVnvifUBc3j0RPE/",
+  "company": "",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "Agile Methodology",
+             "endorsmentCount": "28"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "15"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "7"
+             }
+             ]
+  },
+  {
+  "uId": "9",
+  "firstName": "Marc",
+  "lastName": "Nieto",
+  "email": "",
+  "job": "iOS Developer",
+  "location": "Greater Los Angeles Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAA5Et_IBmEk34sn5h4sfrMs927IXPt4fq2s/",
+  "company": "",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "5"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "7"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "14"
+             }
+             ]
+  },
+  {
+  "uId": "10",
+  "firstName": "Jamar",
+  "lastName": "Maurice Gibbs",
+  "email": "",
+  "job": "iOS Developer",
+  "location": "San Francisco Bay Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAABjTzdABkgt3QiJ4IjRwiPapgbH0NMUnUCk/",
+  "company": "Independent iOS Developer",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "Git",
+             "endorsmentCount": "11"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "26"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "10"
+             },
+             {
+             "name": "Firebase",
+             "endorsmentCount": "6"
+             },
+             {
+             "name": "Git",
+             "endorsmentCount": "4"
+             },
+             {
+             "name": "Javascript",
+             "endorsmentCount": "12"
+             }
+             ]
+  },
+  {
+  "uId": "11",
+  "firstName": "Kiril",
+  "lastName": "Shishkoski",
+  "email": "",
+  "job": "iOS Developer",
+  "location": "Greater Los Angeles Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAB887t4BOZMUuiM_JVBdE1zdIkZ--JkzFO0/",
+  "company": "Self-employed",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "1"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "2"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "1"
+             },
+             {
+             "name": "Xcode",
+             "endorsmentCount": "3"
+             },
+             {
+             "name": "Firebase",
+             "endorsmentCount": "10"
+             }
+             ]
+  },
+  {
+  "uId": "12",
+  "firstName": "Colin",
+  "lastName": "Smith",
+  "email": "",
+  "job": "iOS Developer",
+  "location": "Greater New York City Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAABG8tm0BlnkLKsms9t8wMS7bWediLLfOdx8/",
+  "company": "Facebook",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "1"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "2"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "1"
+             }
+             ]
+  },
+  {
+  "uId": "13",
+  "firstName": "Alex",
+  "lastName": "Mokretsov",
+  "email": "amokretsov@webmd.com",
+  "job": "iOS Developer",
+  "location": "United States",
+  "profileUrl": "https://www.linkedin.com//in/ACoAABYg_XQBWT4tjuIeiIUaKS1mlRUgDzkoVXo/",
+  "company": "WebMD",
+  "companyWebsite": "http://www.webmd.com",
+  "companyIndustry": "Internet",
+  "companyFounded": "",
+  "companySize": "1001-5000",
+  "companyLinkedin": "/company-beta/3859",
+  "companyHeadquarters": "us",
+  "skills": [
+             {
+             "name": "Xcode",
+             "endorsmentCount": "9"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "9"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "8"
+             },
+             {
+             "name": "Core Data",
+             "endorsmentCount": "7"
+             },
+             {
+             "name": "SQLite",
+             "endorsmentCount": "3"
+             },
+             {
+             "name": "UIKit",
+             "endorsmentCount": "1"
+             },
+             {
+             "name": "Unit Testing",
+             "endorsmentCount": "10"
+             }
+             ]
+  },
+  {
+  "uId": "14",
+  "firstName": "Chris",
+  "lastName": "Stomp",
+  "email": "chris.stomp@citigroup.com",
+  "job": "iOS Developer",
+  "location": "Dallas/Fort Worth Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAArdVPQBBZJaBD1B-gh6rzKzi-LtFdzpdLo/",
+  "company": "Citi",
+  "companyWebsite": "http://www.citigroup.com",
+  "companyIndustry": "Financial Services",
+  "companyFounded": "1812",
+  "companySize": "10001+",
+  "companyLinkedin": "/company-beta/11448",
+  "companyHeadquarters": "New York, New York",
+  "skills": [
+             {
+             "name": "Xcode",
+             "endorsmentCount": "19"
+             },
+             {
+             "name": "iOS",
+             "endorsmentCount": "20"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "22"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "10"
+             },
+             {
+             "name": "Unit Testing",
+             "endorsmentCount": "10"
+             },
+             {
+             "name": "Git",
+             "endorsmentCount": "10"
+             },
+             {
+             "name": "Consulting",
+             "endorsmentCount": "10"
+             }
+             ]
+  },
+  {
+  "uId": "15",
+  "firstName": "Amad",
+  "lastName": "Ayub",
+  "email": "aayub@google.com",
+  "job": "iOS Developer &amp; Mediation Specialist ",
+  "location": "San Francisco Bay Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAAeK534BrHDceIEKD7iKw6sfI6i5nk7_Qbs/",
+  "company": "Google",
+  "companyWebsite": "http://www.google.com",
+  "companyIndustry": "Internet",
+  "companyFounded": "1998",
+  "companySize": "10001+",
+  "companyLinkedin": "/company-beta/1441",
+  "companyHeadquarters": "Mountain View, CA",
+  "skills": [
+             {
+             "name": "Mobile Development",
+             "endorsmentCount": "45"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "21"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "10"
+             },
+             {
+             "name": "C++",
+             "endorsmentCount": "2"
+             },
+             {
+             "name": "OOP",
+             "endorsmentCount": "11"
+             },
+             {
+             "name": "Java",
+             "endorsmentCount": "10"
+             },
+             {
+             "name": "MVVM",
+             "endorsmentCount": "7"
+             }
+             ]
+  },
+  {
+  "uId": "16",
+  "firstName": "Ragunath",
+  "lastName": "Rajagopal",
+  "email": "ragunath@ittblazers.com",
+  "job": "iOS App Developer",
+  "location": "Greater New York City Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAABOqOowBq15p36Kfb0C_rpFQOpY4imbz1Z0/",
+  "company": "IT Trailblazers",
+  "companyWebsite": "http://www.ittblazers.com",
+  "companyIndustry": "Information Technology and Services",
+  "companyFounded": "1999",
+  "companySize": "501-1000",
+  "companyLinkedin": "/company-beta/75483",
+  "companyHeadquarters": "North Brunswick, New Jersey",
+  "skills": [
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "7"
+             },
+             {
+             "name": "Xcode",
+             "endorsmentCount": "6"
+             },
+             {
+             "name": "SQLite",
+             "endorsmentCount": "5"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "3"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "2"
+             },
+             {
+             "name": "C++",
+             "endorsmentCount": "3"
+             },
+             {
+             "name": "Core Data",
+             "endorsmentCount": "10"
+             }
+             ]
+  },
+  {
+  "uId": "17",
+  "firstName": "Matthew",
+  "lastName": "Serwicki",
+  "email": "",
+  "job": "iOS Developer",
+  "location": "Orange County, California Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAB09dkEBtw7_2kdioVImF-Zwra9rgFvRha4/",
+  "company": "iOS Developer",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "6"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "6"
+             },
+             {
+             "name": "Xcode",
+             "endorsmentCount": "5"
+             }
+             ]
+  },
+  {
+  "uId": "18",
+  "firstName": "Ryan",
+  "lastName": "Striker",
+  "email": "",
+  "job": "iOS Developer",
+  "location": "Greater Grand Rapids, Michigan Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAAQHBX4B2oT19lLGO_AnUsxQGZ15cY78NzM/",
+  "company": "Strikode, LLC",
+  "companyWebsite": "",
+  "companyIndustry": "",
+  "companyFounded": "",
+  "companySize": "",
+  "companyLinkedin": "",
+  "companyHeadquarters": "",
+  "skills": [
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "38"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "51"
+             },
+             {
+             "name": "Mobile Development",
+             "endorsmentCount": "47"
+             }
+             ]
+  },
+  {
+  "uId": "19",
+  "firstName": "Michael",
+  "lastName": "Moore",
+  "email": "michael.moore@deloittedigital.com",
+  "job": "iOS Developer",
+  "location": "Charlotte, North Carolina Area",
+  "profileUrl": "https://www.linkedin.com//in/ACoAAAasXscBy2Jvr2zLrRsMAuXp_Z-DfbDmXvw/",
+  "company": "Deloitte Digital",
+  "companyWebsite": "http://www.deloittedigital.com",
+  "companyIndustry": "Information Technology and Services",
+  "companyFounded": "",
+  "companySize": "5001-10000",
+  "companyLinkedin": "/company-beta/2449847",
+  "companyHeadquarters": "us",
+  "skills": [
+             {
+             "name": "iOS Development",
+             "endorsmentCount": "16"
+             },
+             {
+             "name": "Objective-C",
+             "endorsmentCount": "23"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "9"
+             },
+             {
+             "name": "Xcode",
+             "endorsmentCount": "14"
+             },
+             {
+             "name": "Java",
+             "endorsmentCount": "10"
+             },
+             {
+             "name": "SQL",
+             "endorsmentCount": "10"
+             },
+             {
+             "name": "Swift",
+             "endorsmentCount": "8"
+             },
+             {
+             "name": "Augmented Reality",
+             "endorsmentCount": "10"
+             },
+             {
+             "name": "jQuery",
+             "endorsmentCount": "13"
+             }
+             ]
+  }
+  ]
